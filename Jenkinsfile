@@ -6,11 +6,6 @@ pipeline {
       }
     }
 
-
-    options {
-      disableConcurrentBuilds()
-    }
-
     stages {
       stage('Install ArgoCD in the Cluster') {
         steps {
