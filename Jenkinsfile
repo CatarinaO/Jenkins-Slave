@@ -2,7 +2,7 @@ pipeline {
     agent {
       dockerfile {
         filename 'Dockerfile'
-        label 'slave-node'
+        label 'master-slave-node'
       }
     }
 
