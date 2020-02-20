@@ -11,7 +11,7 @@ pipeline {
         steps {
 
         sh '''
-             mkdir dhdhd
+             echo ' dhdhd'
              '''
 
         }
